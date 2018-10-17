@@ -1,12 +1,14 @@
 [
   {
     "id": "yes",
+    "icon": "./img/yes.jpg",
     "title": "Yes",
     "english": "Yes",
     "spanish": "Sí"
   },
   {
     "id": "no",
+    "icon": "./img/no.jpg",
     "title": "No",
     "english": "No",
     "spanish": "No"
