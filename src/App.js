@@ -4,8 +4,8 @@ import "./App.css";
 //dependencies
 import { DragDropContextProvider } from "react-dnd";
 import HTML5Backend from "react-dnd-html5-backend";
-import EyeGazeTemplate from "./components/EyeGazeTemplate";
-import Sidebar from "./components/Sidebar";
+import EyeGazeTemplate from "./components/EyeGazeTemplate.js";
+import Sidebar from "./components/Sidebar.js";
 import data from "./data";
 
 class App extends Component {
@@ -22,8 +22,8 @@ class App extends Component {
           value: "english"
         },
         {
-          label: "Blank",
-          value: "blank"
+          label: "Spanish",
+          value: "Spanish"
         }
       ]
     };
@@ -48,7 +48,6 @@ class App extends Component {
     return (
       <DragDropContextProvider backend={HTML5Backend}>
         <div className="App">
-          <Sidebar availableIcons={this.state.availableIcons} />
           <EyeGazeTemplate
             languages={this.state.languages}
             language={this.state.language}
@@ -57,6 +56,7 @@ class App extends Component {
             onSelect={item => this.setState({ language: item.value })}
             onClear={() => this.setState({ selectedIcons: Array(12).fill({}) })}
           />
+          <Sidebar availableIcons={this.state.availableIcons} />
         </div>
       </DragDropContextProvider>
     );
