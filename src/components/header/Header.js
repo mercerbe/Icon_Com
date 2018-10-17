@@ -1,53 +1,21 @@
 import React from "react";
-import { Header, Segment } from "semantic-ui-react";
-//evergreen
-import {
-  Heading,
-  SubHeading,
-  IconButton,
-  Popover,
-  Pane,
-  Text,
-  Paragraph,
-  Card,
-  Button,
-  SelectMenu,
-  TriangleIcon
-} from "evergreen-ui";
+//import semantic header here
+import { Header, Segment, Icon } from "semantic-ui-react";
+import StartModal from "../modal/Modal.js";
 
-const AppHeader = () => (
+const PageHeader = () => (
   <Segment inverted>
-    <Header as="h1" inverted color="grey" textAlign="center">
-      Icon Com
-      <Popover
-        content={
-          <Pane
-            width={250}
-            display="flex"
-            alignItems="center"
-            justifyContent="center"
-            flexDirection="column"
-            padding={15}
-          >
-            <Paragraph size={300}>
-              <Text size={300} fontWeight="bold">
-                About
-              </Text>
-              <br />
-              Communication barriers are a major cause of adverse events in
-              acute care hospitals (Hurting, Nilsen, Happ, & Blackstone, 2015).
-              To facilitate effective patient-provider communication, this app
-              offers patients with limited expressive language abilities or
-              language differences to express basic and immediate wants and
-              needs through individualized communication boards.
-            </Paragraph>
-          </Pane>
-        }
-      >
-        <IconButton marginLeft={0} appearance="ghost" icon="question" />
-      </Popover>
+    <Header as="h1" icon inverted color="grey" textAlign="center">
+      <Icon name="talk" />
+      <Header.Content>Icon Com</Header.Content>
+    </Header>
+    <Header as="h5" inverted color="grey" textAlign="center">
+      Select available icons to communicate using touch to speech technology
+    </Header>
+    <Header textAlign="center">
+      <StartModal />
     </Header>
   </Segment>
 );
 
-export default AppHeader;
+export default PageHeader;

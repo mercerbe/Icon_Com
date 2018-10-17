@@ -1,0 +1,170 @@
+[
+  {
+    "id": "yes",
+    "title": "Yes",
+    "english": "Yes",
+    "spanish": "Sí"
+  },
+  {
+    "id": "no",
+    "title": "No",
+    "english": "No",
+    "spanish": "No"
+  },
+  {
+    "id": "pain",
+    "title": "I have pain",
+    "english": "I have pain",
+    "spanish": "Tengo dolor"
+  },
+  {
+    "id": "breathing",
+    "title": "Hard to breathe",
+    "english": "Hard to breathe",
+    "spanish": "Difícil respirar"
+  },
+  {
+    "id": "nausea",
+    "title": "Nausea",
+    "english": "Nausea",
+    "spanish": "Siento náuseas"
+  },
+  {
+    "id": "headache",
+    "title": "Headache",
+    "english": "Headache",
+    "spanish": "Dolor de cabeza"
+  },
+  {
+    "id": "toilet",
+    "title": "Toilet",
+    "english": "Toilet",
+    "spanish": "Baño"
+  },
+  {
+    "id": "bedpan",
+    "title": "Bed pan",
+    "english": "Bed pan",
+    "spanish": "Inodoro"
+  },
+  {
+    "id": "bed",
+    "title": "Bed / I want to lie down",
+    "english": "Bed / I want to lie down",
+    "spanish": "Cama / Quiero acostarme"
+  },
+  {
+    "id": "turn",
+    "title": "I’m uncomfortable / I want to turn over",
+    "english": "I’m uncomfortable / I want to turn over",
+    "spanish": "Me siento incómodo / Quiero entregarme"
+  },
+  {
+    "id": "upright",
+    "title": "Please elevate the head of the bed",
+    "english": "Please elevate the head of the bed",
+    "spanish": "Eleve la cabecera de la cama por favor"
+  },
+  {
+    "id": "chair",
+    "title": "Chair / I want to sit",
+    "english": "Chair / I want to sit",
+    "spanish": "Silla / Quiero sentarme"
+  },
+  {
+    "id": "walk",
+    "title": "Walking a'id' / I want to walk",
+    "english": "Walking a'id' / I want to walk",
+    "spanish": "Ayuda para caminar / Quiero caminar"
+  },
+  {
+    "id": "wheelchair",
+    "title": "Wheelchair",
+    "english": "Wheelchair",
+    "spanish": "Silla de ruedas"
+  },
+  {
+    "id": "vision-hearing",
+    "title": "Glasses / Hearing a'id's",
+    "english": "Glasses / Hearing a'id's",
+    "spanish": "Gafas / Audífonos"
+  },
+  {
+    "id": "temperature",
+    "title": "I feel hot / I feel cold",
+    "english": "I feel hot / I feel cold",
+    "spanish": "Me siento aliente / Me siento frío"
+  },
+  {
+    "id": "lights",
+    "title": "Lights on / Lights off",
+    "english": "Lights on / Lights off",
+    "spanish": "Enciende la luz / Apaga la luz"
+  },
+  {
+    "id": "hungry",
+    "title": "Food / I'm hungry",
+    "english": "Food / I'm hungry",
+    "spanish": "Com'id'a / Tengo hambre"
+  },
+  {
+    "id": "thirsty",
+    "title": "Beverage / I'm thirsty",
+    "english": "Beverage / I'm thirsty",
+    "spanish": "Beb'id'a / Estoy sediento"
+  },
+  {
+    "id": "suction",
+    "title": "Suction / Please suction me",
+    "english": "Suction / Please suction me",
+    "spanish": "Succión / succión de mí por favor"
+  },
+  {
+    "id": "shower",
+    "title": "Shower / Please wash me",
+    "english": "Shower / Please wash me",
+    "spanish": "Ducha / Lávame por favor"
+  },
+  {
+    "id": "teeth",
+    "title": "Toothbrush / Dentures",
+    "english": "Toothbrush / Dentures",
+    "spanish": "Cepillo de dientes / Dentadura postiza"
+  },
+  {
+    "id": "tv",
+    "title": "TV",
+    "english": "TV",
+    "spanish": "Televisión"
+  },
+  {
+    "id": "music",
+    "title": "Music",
+    "english": "Music",
+    "spanish": "Música"
+  },
+  {
+    "id": "phone",
+    "title": "Telephone",
+    "english": "Telephone",
+    "spanish": "Teléfono"
+  },
+  {
+    "id": "home",
+    "title": "Home / Family",
+    "english": "Home / Family",
+    "spanish": "Casa / Familia"
+  },
+  {
+    "id": "hospital",
+    "title": "Hospital",
+    "english": "Hospital",
+    "spanish": "Hospital"
+  },
+  {
+    "id": "doctor-nurse",
+    "title": "Doctor / Nurse",
+    "english": "Doctor / Nurse",
+    "spanish": "Doctor / Enfemera"
+  }
+]

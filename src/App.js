@@ -1,67 +1,47 @@
 import React, { Component } from "react";
-//app css
 import "./App.css";
-//dependencies
-import { DragDropContextProvider } from "react-dnd";
-import HTML5Backend from "react-dnd-html5-backend";
-import GazeLayout from "./components/gazeLayout/gazeLayout.js";
-import Sidebar from "./components/Sidebar.js";
-import data from "./data";
+import Icons from "./data.json";
 //components
-import AppHeader from "./components/header/Header";
+import { Segment, Container, Card } from "semantic-ui-react";
+import IconCard from "./components/card/Card";
+import PageHeader from "./components/header/Header";
+import PageFooter from "./components/footer/Footer";
+
+//styles
+const styles = {
+  background: "#e9ecef"
+};
 
 class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      availableIcons: data,
-      selectedIcons: Array(12).fill({}),
-      language: "english",
-      languages: [
-        {
-          label: "English",
-          value: "english"
-        },
-        {
-          label: "Spanish",
-          value: "Spanish"
-        }
-      ]
-    };
-
-    window._APP_ = this;
-  }
-
-  onDrop = (item, position) => {
-    const updatedIcons = this.state.selectedIcons.map((icon, index) => {
-      if (position === index) {
-        return { ...item.icon };
-      }
-      return icon;
-    });
-
-    this.setState({
-      selectedIcons: updatedIcons
-    });
+  //set state
+  state = {
+    Icons
   };
 
+  //render components
   render() {
     return (
-      <DragDropContextProvider backend={HTML5Backend}>
-        <AppHeader />
-        <div className="App">
-          <gazeLayout
-            languages={this.state.languages}
-            language={this.state.language}
-            selectedIcons={this.state.selectedIcons}
-            onDrop={this.onDrop}
-            onSelect={item => this.setState({ language: item.value })}
-            onClear={() => this.setState({ selectedIcons: Array(12).fill({}) })}
-          />
-          <Sidebar availableIcons={this.state.availableIcons} />
-        </div>
-      </DragDropContextProvider>
+      <div style={styles}>
+        <Segment inverted>
+          <PageHeader />
+        </Segment>
+        <Container>
+          <Segment inverted>
+            <Card.Group itemsPerRow={4}>
+              {this.state.Icons.map(icon => (
+                <IconCard
+                  key={icon.key}
+                  id={icon.id}
+                  mixIcons={this.mixIcons}
+                  icon={icon.icon}
+                />
+              ))}
+            </Card.Group>
+          </Segment>
+        </Container>
+        <br />
+        <PageFooter />
+      </div>
     );
   }
 }
