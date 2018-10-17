@@ -15,24 +15,28 @@
   },
   {
     "id": "pain",
+    "icon": "./img/pain.jpg",
     "title": "I have pain",
     "english": "I have pain",
     "spanish": "Tengo dolor"
   },
   {
     "id": "breathing",
+    "icon": "./img/breathing.jpg",
     "title": "Hard to breathe",
     "english": "Hard to breathe",
     "spanish": "Difícil respirar"
   },
   {
     "id": "nausea",
+    "icon": "./img/nausea.jpg",
     "title": "Nausea",
     "english": "Nausea",
     "spanish": "Siento náuseas"
   },
   {
     "id": "headache",
+    "icon": "./img/headache.jpg",
     "title": "Headache",
     "english": "Headache",
     "spanish": "Dolor de cabeza"
