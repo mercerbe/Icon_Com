@@ -4,9 +4,11 @@ import "./App.css";
 //dependencies
 import { DragDropContextProvider } from "react-dnd";
 import HTML5Backend from "react-dnd-html5-backend";
-import EyeGazeTemplate from "./components/EyeGazeTemplate.js";
+import GazeLayout from "./components/gazeLayout/gazeLayout.js";
 import Sidebar from "./components/Sidebar.js";
 import data from "./data";
+//components
+import AppHeader from "./components/header/Header";
 
 class App extends Component {
   constructor() {
@@ -47,8 +49,9 @@ class App extends Component {
   render() {
     return (
       <DragDropContextProvider backend={HTML5Backend}>
+        <AppHeader />
         <div className="App">
-          <EyeGazeTemplate
+          <gazeLayout
             languages={this.state.languages}
             language={this.state.language}
             selectedIcons={this.state.selectedIcons}
