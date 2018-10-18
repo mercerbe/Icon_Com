@@ -4,13 +4,8 @@
   "private": true,
   "homepage": "https://mercerbe.github.io/icon_com",
   "dependencies": {
-    "evergreen-ui": "^3.2.4",
-    "feather-icons": "^4.7.3",
     "react": "^16.4.2",
-    "react-dnd": "^5.0.0",
-    "react-dnd-html5-backend": "^5.0.1",
     "react-dom": "^16.4.2",
-    "react-feather": "^1.1.1",
     "react-scripts": "1.1.4",
     "react-speech": "^0.3.2",
     "semantic-ui-css": "^2.4.1",
@@ -27,12 +22,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
