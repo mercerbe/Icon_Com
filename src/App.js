@@ -6,6 +6,8 @@ import { Segment, Container, Card } from "semantic-ui-react";
 import IconCard from "./components/card/Card";
 import PageHeader from "./components/header/Header";
 import PageFooter from "./components/footer/Footer";
+//voice
+const voice = require("responsivevoice");
 
 //styles
 const styles = {
@@ -26,6 +28,11 @@ class App extends Component {
           <PageHeader />
         </Segment>
         <Container>
+          <input
+            onClick={() => voice.speak("Hello World")}
+            type="button"
+            value="🔊 Play"
+          />
           <Segment inverted>
             <Card.Group itemsPerRow={3}>
               {this.state.Icons.map(icon => (
