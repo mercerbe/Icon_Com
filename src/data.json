@@ -43,132 +43,154 @@
   },
   {
     "id": "toilet",
+    "icon": "./img/toilet.jpg",
     "title": "Toilet",
     "english": "Toilet",
     "spanish": "Baño"
   },
   {
     "id": "bedpan",
+    "icon": "./img/bedpan.jpg",
     "title": "Bed pan",
     "english": "Bed pan",
     "spanish": "Inodoro"
   },
   {
     "id": "bed",
+    "icon": "./img/bed.jpg",
     "title": "Bed / I want to lie down",
     "english": "Bed / I want to lie down",
     "spanish": "Cama / Quiero acostarme"
   },
   {
     "id": "turn",
+    "icon": "./img/turn.jpg",
     "title": "I’m uncomfortable / I want to turn over",
     "english": "I’m uncomfortable / I want to turn over",
     "spanish": "Me siento incómodo / Quiero entregarme"
   },
   {
     "id": "upright",
+    "icon": "./img/upright.jpg",
     "title": "Please elevate the head of the bed",
     "english": "Please elevate the head of the bed",
     "spanish": "Eleve la cabecera de la cama por favor"
   },
   {
     "id": "chair",
+    "icon": "./img/chair.jpg",
     "title": "Chair / I want to sit",
     "english": "Chair / I want to sit",
     "spanish": "Silla / Quiero sentarme"
   },
   {
     "id": "walk",
+    "icon": "./img/walk.jpg",
     "title": "Walking a'id' / I want to walk",
     "english": "Walking a'id' / I want to walk",
     "spanish": "Ayuda para caminar / Quiero caminar"
   },
   {
     "id": "wheelchair",
+    "icon": "./img/wheelchair.jpg",
     "title": "Wheelchair",
     "english": "Wheelchair",
     "spanish": "Silla de ruedas"
   },
   {
     "id": "vision-hearing",
+    "icon": "./img/vision-hearing.jpg",
     "title": "Glasses / Hearing a'id's",
     "english": "Glasses / Hearing a'id's",
     "spanish": "Gafas / Audífonos"
   },
   {
     "id": "temperature",
+    "icon": "./img/temperature.jpg",
     "title": "I feel hot / I feel cold",
     "english": "I feel hot / I feel cold",
     "spanish": "Me siento aliente / Me siento frío"
   },
   {
     "id": "lights",
+    "icon": "./img/lights.jpg",
     "title": "Lights on / Lights off",
     "english": "Lights on / Lights off",
     "spanish": "Enciende la luz / Apaga la luz"
   },
   {
     "id": "hungry",
+    "icon": "./img/hungry.jpg",
     "title": "Food / I'm hungry",
     "english": "Food / I'm hungry",
     "spanish": "Com'id'a / Tengo hambre"
   },
   {
     "id": "thirsty",
+    "icon": "./img/thirsty.jpg",
     "title": "Beverage / I'm thirsty",
     "english": "Beverage / I'm thirsty",
     "spanish": "Beb'id'a / Estoy sediento"
   },
   {
     "id": "suction",
+    "icon": "./img/suction.jpg",
     "title": "Suction / Please suction me",
     "english": "Suction / Please suction me",
     "spanish": "Succión / succión de mí por favor"
   },
   {
     "id": "shower",
+    "icon": "./img/shower.jpg",
     "title": "Shower / Please wash me",
     "english": "Shower / Please wash me",
     "spanish": "Ducha / Lávame por favor"
   },
   {
     "id": "teeth",
+    "icon": "./img/teeth.jpg",
     "title": "Toothbrush / Dentures",
     "english": "Toothbrush / Dentures",
     "spanish": "Cepillo de dientes / Dentadura postiza"
   },
   {
     "id": "tv",
+    "icon": "./img/tv.jpg",
     "title": "TV",
     "english": "TV",
     "spanish": "Televisión"
   },
   {
     "id": "music",
+    "icon": "./img/music.jpg",
     "title": "Music",
     "english": "Music",
     "spanish": "Música"
   },
   {
     "id": "phone",
+    "icon": "./img/phone.jpg",
     "title": "Telephone",
     "english": "Telephone",
     "spanish": "Teléfono"
   },
   {
     "id": "home",
+    "icon": "./img/home.jpg",
     "title": "Home / Family",
     "english": "Home / Family",
     "spanish": "Casa / Familia"
   },
   {
     "id": "hospital",
+    "icon": "./img/hospital.jpg",
     "title": "Hospital",
     "english": "Hospital",
     "spanish": "Hospital"
   },
   {
     "id": "doctor-nurse",
+    "icon": "./img/doctor-nurse.jpg",
     "title": "Doctor / Nurse",
     "english": "Doctor / Nurse",
     "spanish": "Doctor / Enfemera"

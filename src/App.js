@@ -27,7 +27,7 @@ class App extends Component {
         </Segment>
         <Container>
           <Segment inverted>
-            <Card.Group itemsPerRow={4}>
+            <Card.Group itemsPerRow={3}>
               {this.state.Icons.map(icon => (
                 <IconCard
                   key={icon.key}

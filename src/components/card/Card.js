@@ -3,7 +3,7 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 
 const IconCard = props => (
-  <Card className="iconCards" color="teal" image={props.icon} id={props.id} />
+  <Card className="iconCards" color="grey" image={props.icon} id={props.id} />
 );
 
 export default IconCard;
