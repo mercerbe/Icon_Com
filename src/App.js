@@ -30,7 +30,7 @@ class App extends Component {
             <Card.Group itemsPerRow={3}>
               {this.state.Icons.map(icon => (
                 <IconCard
-                  key={icon.key}
+                  key={Math.random()}
                   id={icon.id}
                   mixIcons={this.mixIcons}
                   icon={icon.icon}

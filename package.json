@@ -2,6 +2,7 @@
   "name": "icon_com",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mercerbe.github.io/icon_com",
   "dependencies": {
     "evergreen-ui": "^3.2.4",
     "feather-icons": "^4.7.3",
