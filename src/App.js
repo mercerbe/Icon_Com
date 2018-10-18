@@ -6,8 +6,6 @@ import { Segment, Container, Card } from "semantic-ui-react";
 import IconCard from "./components/card/Card";
 import PageHeader from "./components/header/Header";
 import PageFooter from "./components/footer/Footer";
-//voice
-const voice = require("responsivevoice");
 
 //styles
 const styles = {
@@ -29,7 +27,7 @@ class App extends Component {
         </Segment>
         <Container>
           <input
-            onClick={() => voice.speak("Hello World")}
+            onClick={() => window.responsiveVoice.speak("Hello World")}
             type="button"
             value="🔊 Play"
           />
@@ -41,6 +39,7 @@ class App extends Component {
                   id={icon.id}
                   mixIcons={this.mixIcons}
                   icon={icon.icon}
+                  onClick={() => window.responsiveVoice.speak(icon.title)}
                 />
               ))}
             </Card.Group>
