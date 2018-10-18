@@ -26,11 +26,6 @@ class App extends Component {
           <PageHeader />
         </Segment>
         <Container>
-          <input
-            onClick={() => window.responsiveVoice.speak("Hello World")}
-            type="button"
-            value="🔊 Play"
-          />
           <Segment inverted>
             <Card.Group itemsPerRow={3}>
               {this.state.Icons.map(icon => (
